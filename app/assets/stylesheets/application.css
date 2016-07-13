@@ -1,3 +1,57 @@
+body {
+	font-family: "helvetica neue"
+
+}
+
+.overdiv {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	border-right: 1px solid blue;
+	border-left: 1px solid blue;
+	width: 1000px;
+	top: -8px;
+	height: 50px;
+	min-width: 1000px;
+}
+
+.background-div1 {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	background-color: #333333;
+	top: 0px;
+	left: 0px;
+	min-width: 1000px;
+}
+
+.navbar {
+	position: absolute;
+	width: 100%;
+	height: 50px;
+}
+
+.home_link {
+	position: absolute;
+	color:white;
+	text-decoration: none;
+	width: 100px;
+	text-align: center;
+	height: 50px;
+	line-height: 45px;
+	left: 0px;
+}
+
+.about_link {
+	position: absolute;
+	color:white;
+	text-decoration: none;
+	width: 100px;
+	text-align: center;
+	height: 50px;
+	line-height: 45px;
+	left: 100px;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

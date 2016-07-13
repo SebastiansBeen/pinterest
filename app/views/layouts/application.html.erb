@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+
+
+
     <title>Pinterest</title>
     <%= csrf_meta_tags %>
 
@@ -9,9 +13,19 @@
   </head>
 
   <body>
+  <div class='background-div1'></div>
 
-		<%= link_to "home", root_path  %>
-		<%= link_to "about", about_path  %>
+  		<div class='overdiv'>
+
+  			<div class="navbar"></div>
+
+  			
+  			<%= link_to "home", root_path,  :class => "home_link"%>
+			<%= link_to "about", about_path, :class => "about_link"  %>
+  		</div>
+
+		
+	
 
 
     <%= yield %>

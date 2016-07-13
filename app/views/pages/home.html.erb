@@ -1,5 +1,75 @@
+<style type="text/css">
 
-<h1>Welcome to Pinterest</h1>
-<p>Sign up <%= link_to "here", "#"  %> </p>
+
+.home_link {
+	color: #77d5a6;
+}
+
+.overdiv-home {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	border-right: 1px solid blue;
+	border-left: 1px solid blue;
+	width: 1000px;
+	top: -8px;
+	height: 1000px;
+	min-width: 1000px;
+}
+
+.login-button {
+	position: absolute;
+	height: 40px;
+	width: 80px;
+	border-radius: 10px;
+	background-color: #77d5a6;
+	left: 375px;
+	width: 100px;
+	text-align: center;
+	line-height: 37px;
+	text-decoration: none;
+	color: #ffffff;
+	border: 2px solid #e5e5e5;
+	top: 75px;
+}
+
+.signup-button {
+	position: absolute;
+	height: 40px;
+	width: 80px;
+	border-radius: 10px;
+	background-color: #77d5a6;
+	
+	width: 100px;
+	text-align: center;
+	line-height: 37px;
+	text-decoration: none;
+	color: #ffffff;
+	border: 2px solid #e5e5e5;
+	right: 375px;
+	top: 75px;
+}
+
+.header1 {
+	position: absolute;
+	color: #333333;
+	width: 400px;
+	text-align: center;
+	left: 300px;
+}
+
+</style>
+	
+
+<div class='overdiv-home'>
+	
+<h1 class='header1'>Welcome to Pinterest</h1>
+<%= link_to "Log in", "#", :class => "login-button"  %> 
+<%= link_to "Sign up", "#", :class => "signup-button"  %> 
+
+</div>	
+
+
+
 
 
